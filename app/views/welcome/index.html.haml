@@ -1,0 +1,5 @@
+.container.py-10.px-10.mx-0.min-w-full.flex.flex-col.items-center
+  %h2.text-5xl.mb-3.text-black Welcome To AWS Demo
+  .d-flex.mt-5
+    = link_to "Sign in", new_session_path(:user), class: "bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 rounded"
+    = link_to "Sign up", new_registration_path(:user), class: "bg-blue-500 hover:bg-blue-700 text-white text-sm py-2 px-4 rounded"
